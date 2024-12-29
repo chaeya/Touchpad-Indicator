@@ -1,75 +1,9 @@
-<h1 align="center">Welcome to Touchpad-Indicator 👋</h1>
-<p>
-  <img src="https://img.shields.io/badge/version-2.2.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://www.atareao.es/aplicacion/touchpad-indicator-para-ubuntu/">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
-  </a>
-  <a href="https://twitter.com/atareao">
-    <img alt="Twitter: atareao" src="https://img.shields.io/twitter/follow/atareao.svg?style=social" target="_blank" />
-  </a>
-</p>
+<h1 align="center">Touchpad-Indicator </h1>
 
-> With Touchpad Indicator you can enable or disable the touchpad, with shortcuts or by clicking on menu. Besides, it enables or disables the touchpad, when the computer returns from hibernation.
+## 프로젝트 소개
 
-### 🏠 [Homepage](https://www.atareao.es/aplicacion/touchpad-indicator-para-ubuntu/)
+Touchpad-Indicator는 터치패드를 쉽게 활성화하거나 비활성화할 수 있는 도구입니다.
 
-## Requirements
+우분투 24.04 버전에서 사용할 수 있습니다.
 
-Required dependencies
-
-```
-gir1.2-gtk-3.0,
-gir1.2-gdkpixbuf-2.0,
-gir1.2-appindicator3-0.1,
-gir1.2-notify-0.7,
-gir1.2-gconf-2.0,
-gir1.2-rsvg-2.0,
-python3-xlib,
-python3-pyudev,
-python3-dbus,
-xinput
-```
-
-## Install from PPA
-
-```sh
-sudo add-apt-repository ppa:atareao/atareao
-sudo apt update
-sudo apt install touchpad-indicator
-```
-
-## Build it from source and install it after that
-
-```sh
-git clone https://github.com/atareao/Touchpad-Indicator
-cd Touchpad-Indicator
-rm ./debian/source/format
-dpkg-buildpackage
-cd ..
-sudo dpkg -i touchpad-indicator_*_all.deb
-sudo apt-get install -f -y
-```
-
-## Usage
-
-```sh
-touchpad-indicator
-```
-
-## Author
-
-👤 **Lorenzo Carbonell**
-
-* Twitter: [@atareao](https://twitter.com/atareao)
-* Github: [@atareao](https://github.com/atareao)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/atareao/Touchpad-Indicator/issues).
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+- Upstream: https://github.com/atareao/Touchpad-Indicator
